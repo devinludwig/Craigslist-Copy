@@ -6,12 +6,14 @@ import { routing } from './app.routing';
 import { AppComponent } from './app.component';
 import { SplashComponent } from './splash/splash.component';
 import { CategoryComponent } from './category/category.component';
+import { CategoryTileComponent } from './category-tile/category-tile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SplashComponent,
-    CategoryComponent
+    CategoryComponent,
+    CategoryTileComponent
   ],
   imports: [
     BrowserModule,
